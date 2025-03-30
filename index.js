@@ -99,16 +99,11 @@ if (humanScore > computerScore) {
   alert("It's a tie game!\nFinal Score: You " + humanScore + " - Computer " + computerScore);
 }
 
+/* Baustein für eine Runde ohne Scoreboard, ohne console, ohne alles:
+let humanSelection = getHumanChoice();
+let computerSelection = getComputerChoice();
+playRound(humanSelection, computerSelection);
+*/
+
 }
 playGame();
-
-
-
-/* Baustein für eine Runde
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
-
-alert ("Results: \nHuman choice: " + humanSelection + "\nComputer choice: " + computerSelection + "\n" + playRound(humanSelection, computerSelection));
-
-alert("Score Board: \nHuman Score: " + humanScore + "\nComputer Score: " + computerScore);
-*/
