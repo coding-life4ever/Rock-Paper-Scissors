@@ -59,35 +59,50 @@ alert("--- Starting Game ---");
   alert("--- Round 1 ---");
   let humanSelection1 = getHumanChoice();
   let computerSelection1 = getComputerChoice();
-  alert("You chose: " + humanSelection1 + "\nComputer chose: " + computerSelection1 + "\n" + playRound(humanSelection1, computerSelection1) + "\nScore: You " + humanScore + " - " + computerScore + " Computer");
+  alert("You chose: " + humanSelection1 + 
+    "\nComputer chose: " + computerSelection1 +
+    "\n" + playRound(humanSelection1, computerSelection1) + 
+    "\nScore: You " + humanScore + " - " + computerScore + " Computer");
 
   
   // --- Runde 2 ---
   alert("--- Round 2 ---");
   let humanSelection2 = getHumanChoice();
   let computerSelection2 = getComputerChoice();
-  alert("You chose: " + humanSelection2 + "\nComputer chose: " + computerSelection2 + "\n" + playRound(humanSelection2, computerSelection2) + "\nScore: You " + humanScore + " - " + computerScore + " Computer");
+  alert("You chose: " + humanSelection2 + 
+    "\nComputer chose: " + computerSelection2 + 
+    "\n" + playRound(humanSelection2, computerSelection2) + 
+    "\nScore: You " + humanScore + " - " + computerScore + " Computer");
 
 
   // --- Runde 3 ---
   alert("--- Round 3 ---");
   let humanSelection3 = getHumanChoice();
   let computerSelection3 = getComputerChoice();
-  alert("You chose: " + humanSelection3 + "\nComputer chose: " + computerSelection3 + "\n" + playRound(humanSelection3, computerSelection3) + "\nScore: You " + humanScore + " - " + computerScore + " Computer");
+  alert("You chose: " + humanSelection3 + 
+    "\nComputer chose: " + computerSelection3 + 
+    "\n" + playRound(humanSelection3, computerSelection3) + 
+    "\nScore: You " + humanScore + " - " + computerScore + " Computer");
 
 
   // --- Runde 4 ---
   alert("--- Round 4 ---");
   let humanSelection4 = getHumanChoice();
   let computerSelection4 = getComputerChoice();
-  alert("You chose: " + humanSelection4 + "\nComputer chose: " + computerSelection4 + "\n" + playRound(humanSelection4, computerSelection4) + "\nScore: You " + humanScore + " - " + computerScore + " Computer");
+  alert("You chose: " + humanSelection4 + 
+    "\nComputer chose: " + computerSelection4 + 
+    "\n" + playRound(humanSelection4, computerSelection4) + 
+    "\nScore: You " + humanScore + " - " + computerScore + " Computer");
 
   
   // --- Runde 5 ---
   alert("--- Round 5 ---");
   let humanSelection5 = getHumanChoice();
   let computerSelection5 = getComputerChoice();
-  alert("You chose: " + humanSelection5 + "\nComputer chose: " + computerSelection5 + "\n" + playRound(humanSelection5, computerSelection5) + "\nScore: You " + humanScore + " - " + computerScore + " Computer");
+  alert("You chose: " + humanSelection5 + 
+    "\nComputer chose: " + computerSelection5 + 
+    "\n" + playRound(humanSelection5, computerSelection5) + 
+    "\nScore: You " + humanScore + " - " + computerScore + " Computer");
 
 // --- Endauswertung ---
 alert("--- Game Over ---");
