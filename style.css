@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+        padding: 0;
+    height: 100vh;
+}
+.userChoice:empty, 
+.cChoice:empty, 
+.result:empty, 
+.score:empty, 
+.endResult:empty {
+  display: none;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #ecf0f1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+button {
+    background: white;
+    color: #2c3e50;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    margin: 0 10px 20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: 2px solid #2c3e50;
+    font-weight: bold;
+  
+}
+button:active {
+    transform: translateY(-1px);
+}
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+.rock {
+    background-color: #e73c8c;
+    color: white;
+  }
+
+.paper {
+    background-color: #3498db;
+    color: white;
+  }
+  
+.scissors {
+    background-color: #2ecc71;
+    color: white;
+  }
+
+  
+/* Choice styles */
+.userChoice, .cChoice {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 40%;    /* Erhöhe den Einzug von der linken Seite */
+    margin-right: 40%;   /* Erhöhe den Einzug von der rechten Seite */
+    max-width: 70%;      /* Beschränke die Breite auf 70% */
+    margin-top: 5px;     /* Verringere den Abstand zwischen den Elementen */
+    margin-bottom: 5px    
+  }
+
+/* Result styles */
+  .result {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 1.3rem;
+    font-weight: bold;
+    margin-left: 35%;    /* Erhöhe den Einzug von der linken Seite */
+    margin-right: 35%;    /* Erhöhe den Einzug von der rechten Seite */
+    max-width: 70%;      /* Beschränke die Breite auf 70% */
+    margin-top: 5px;     /* Verringere den Abstand zwischen den Elementen */
+    margin-bottom: 5px    
+  }
+
+
+
+/* Score styles */
+.score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f1c40f;
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-left: 35%;    /* Erhöhe den Einzug von der linken Seite */
+    margin-right: 35%;   /* Erhöhe den Einzug von der rechten Seite */
+    max-width: 70%;      /* Beschränke die Breite auf 70% */
+    margin-top: 5px;     /* Verringere den Abstand zwischen den Elementen */
+    margin-bottom: 5px; 
+
+  }
+
+
+/* End result styles */
+.endResult {
+    font-size: 1.4rem;
+    color: #00ff59;
+    margin: 15px 0;
+    font-weight: bold;
+    min-height: 1.4rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
+  }
+
+
+
+
